@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    
+}
+
+.nav {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(11, 11, 29);
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 5px 5px rgb(22, 172, 35);
+
+}
+
+.logo h1 {
+    color: rgb(255, 94, 0);
+    font-weight: 800;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.logo h1:hover {
+    text-shadow: 0px 2px .3px rgb(255, 94, 0);
+}
+
+.logo p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 15px;
+
+}
+
+.nav-items {
+    align-self: flex-end;
+    padding: 15px;
+
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(34, 31, 31);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .6s ;
+
+}
+
+.nav-items a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* main section */
+
+.main-section {
+    padding: 15px 60px;
+    background-color: rgb(212, 192, 192);
+    width: 100%;
+    height: auto;
+}
+
+.main-section img {
+    width: 100%;
+    height: 400px;
+    border: 4px solid gray;
+    
+
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.left-section {
+    width: 100%;
+    padding: 13px;
+    margin-right: 20px;
+
+}
+
+.left-section h1 {
+    color: rgb(255, 60, 0);
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 10px 5px;
+}
+
+.left-section p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 18px;
+    text-align: justify;
+    
+}
+
+.right-section {
+    width: 40%;
+    padding: 13px 0;
+
+
+}
+
+.news-section {
+    border-radius: 31px;
+    background: #c5b8b8;
+    box-shadow: 5px 5px 6px #cecece,
+        -5px -5px 6px #f2f2f2;
+    padding: 15px;
+    text-align: justify;
+
+}
+
+.news-section h2 {
+    color: rgb(5, 114, 54);
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 10px 0;
+
+}
+
+.news-section h1 {
+    font-size: 20px;
+    color: rgba(245, 6, 6, 0.87);
+
+}
+
+.news-section p {
+    margin-top: 10px;
+    color: rgb(12, 11, 11);
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 6px;
+
+}
+
+.news-section a {
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+}
+
+.link-section{
+    border-radius: 31px;
+    background: #b9adad;
+    box-shadow: 5px 5px 6px #cecece,
+        -5px -5px 6px #f2f2f2;
+    padding: 15px;
+    margin: 16px 0;
+}
+.link-section h3{
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 14px 0;
+    color: rgb(9, 33, 252);
+}
+.link-section li{
+    list-style: none;
+    margin: 4px 6px;
+}
+.link-section a{
+    margin-left: 10px ;
+    font-weight: 500;
+    color: rgb(22, 83, 37);
+}
+.link-section a:hover{
+    color: rgb(44, 30, 94);
+}
+.search{
+    border-radius: 10px;
+    background: #b9adad;
+    padding: 15px;
+    margin: 16px 0;
+    box-shadow: 5px 5px 6px #cecece,
+    -5px -5px 6px #f2f2f2;
+}
+.search input{
+    margin:0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ccc;
+    width: 150px;
+    transition: width 2s;
+    font-size: 16px;
+}
+.search input:focus{
+    width: 80%;
+}
+span{
+    color: rgb(35, 25, 88);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer .footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(11, 11, 29);;
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+  
+
+}
+
+footer p .year{
+    color: #03f90d;
+}
+footer p .hacker{
+    color: #1fb4cd;
+}
+
+/* contact */
+.contact{
+    width: 100%;
+    padding: 10px;
+    height: 100vh;
+    background-color: #cecece;
+}
+.contact h2{
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+    color: rgb(15, 15, 83);
+}
+.contact form{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    background: #b3a0a0;
+    box-shadow: 5px 5px 6px #cecece,
+        -5px -5px 6px #f2f2f2;
+    text-align: center;
+    border: 2px solid black;
+
+}
+.contact .input-box{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.input-box input{
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: 0;
+    border: 2px solid gray;
+}
+form textarea{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 450px;
+    resize: none;
+}
+form .btn{
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #e0e0e0;
+    background-color: rgb(19, 19, 61);
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 6px #626399,
+        -5px -5px 6px #5c7396;
+}

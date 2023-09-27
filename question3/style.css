@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    margin: auto;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border: 3px solid red;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 90px;
+    margin: 10px;
+    transition: 0.4s;
+    opacity: 0.7;
+    box-shadow: 12px 16px 18px #778ba5;
+   
+
+}
+img:hover{
+   opacity: 1;
+   
+}

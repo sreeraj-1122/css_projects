@@ -1,0 +1,23 @@
+
+
+table,td,th,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+   font-size: 20px;
+    text-align: center;
+}
+th{
+    color: blue;
+    font-weight: 600;
+    background-color: gray;
+}
+th,td,tr{
+    padding: 10px;
+  
+}
+.first{
+    background-color: rgb(192, 211, 22);
+}
+.second{
+    background-color: gray;
+}

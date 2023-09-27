@@ -1,0 +1,25 @@
+h1{
+    background-color: gray;
+    color: red;
+    text-align: center;
+    text-shadow: 5px 3px green;
+    border: 3px solid blue;
+}
+p{
+    background-image: url(./images/171244.jpg);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: blue;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    border-top: red dashed;
+    border-right: double green;
+    border-bottom: dotted cyan;
+    border-left: solid orange;
+    padding: 2px;
+    
+
+}
